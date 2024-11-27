@@ -29,6 +29,7 @@ export async function handle(
     });
   }
 
+  console.log("req.body", req.body);
   try {
     const response = await request(req);
     return response;
