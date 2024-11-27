@@ -29,6 +29,7 @@ export async function handle(
     });
   }
 
+  console.log("req.body", req.body);
   try {
     const response = await request(req);
     return response;
@@ -77,7 +78,7 @@ async function request(req: NextRequest) {
     duplex: "half",
     signal: controller.signal,
   };
-
+  console.log("req.body", req.body);
   // #1815 try to refuse some request to some models
   if (serverConfig.customModels && req.body) {
     try {
@@ -108,6 +109,7 @@ async function request(req: NextRequest) {
       console.error(`[XAI] filter`, e);
     }
   }
+  console.log("fetchUrl", fetchUrl);
   console.log("fetchOptions", fetchOptions);
   try {
     const res = await fetch(fetchUrl, fetchOptions);
