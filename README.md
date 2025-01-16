@@ -4,18 +4,13 @@
   <img src="https://github.com/user-attachments/assets/287c510f-f508-478e-ade3-54d30453dc18" width="1000" alt="icon"/>
 </a>
 
-
 <h1 align="center">NextChat (ChatGPT Next Web)</h1>
 
 English / [简体中文](./README_CN.md)
 
 <a href="https://trendshift.io/repositories/5973" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5973" alt="ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-
-
 One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT4 & Gemini Pro support.
-
-一键免费部署你的跨平台私人 ChatGPT 应用, 支持 Claude, GPT4 & Gemini Pro 模型。
 
 [![Saas][Saas-image]][saas-url]
 [![Web][Web-image]][web-url]
@@ -24,8 +19,6 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT
 [![Linux][Linux-image]][download-url]
 
 [NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [Web App Demo](https://app.nextchat.dev) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Enterprise Edition](#enterprise-edition) / [Twitter](https://twitter.com/NextChatDev)
-
-[NextChatAI](https://nextchat.dev/chat) / [自部署网页版](https://app.nextchat.dev) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues)
 
 [saas-url]: https://nextchat.dev/chat?utm_source=readme
 [saas-image]: https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge
@@ -56,21 +49,11 @@ Meeting Your Company's Privatization and Customization Deployment Requirements:
 
 For enterprise inquiries, please contact: **<business@nextchat.dev>**
 
-## 企业版
+## Screenshots
 
-满足企业用户私有化部署和个性化定制需求：
+![Settings](./docs/images/settings.png)
 
-- **品牌定制**：企业量身定制 VI/UI，与企业品牌形象无缝契合
-- **资源集成**：由企业管理人员统一配置和管理数十种 AI 资源，团队成员开箱即用
-- **权限管理**：成员权限、资源权限、知识库权限层级分明，企业级 Admin Panel 统一控制
-- **知识接入**：企业内部知识库与 AI 能力相结合，比通用 AI 更贴近企业自身业务需求
-- **安全审计**：自动拦截敏感提问，支持追溯全部历史对话记录，让 AI 也能遵循企业信息安全规范
-- **私有部署**：企业级私有部署，支持各类主流私有云部署，确保数据安全和隐私保护
-- **持续更新**：提供多模态、智能体等前沿能力持续更新升级服务，常用常新、持续先进
-
-企业版咨询: **<business@nextchat.dev>**
-
-<img width="300" src="https://github.com/user-attachments/assets/3d4305ac-6e95-489e-884b-51d51db5f692">
+![More](./docs/images/more.png)
 
 ## Features
 
@@ -161,8 +144,6 @@ For enterprise inquiries, please contact: **<business@nextchat.dev>**
 
 ## Get Started
 
-> [简体中文 > 如何开始使用](./README_CN.md#开始使用)
-
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
@@ -170,13 +151,9 @@ For enterprise inquiries, please contact: **<business@nextchat.dev>**
 
 ## FAQ
 
-[简体中文 > 常见问题](./docs/faq-cn.md)
-
 [English > FAQ](./docs/faq-en.md)
 
 ## Keep Updated
-
-> [简体中文 > 如何保持代码更新](./README_CN.md#保持更新)
 
 If you have deployed your own project with just one click following the steps above, you may encounter the issue of "Updates Available" constantly showing up. This is because Vercel will create a new project for you by default instead of forking this project, resulting in the inability to detect updates correctly.
 
@@ -204,8 +181,6 @@ You can star or watch this project or follow author to get release notifications
 
 ## Access Password
 
-> [简体中文 > 如何增加访问密码](./README_CN.md#配置页面访问密码)
-
 This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
 
 ```
@@ -215,8 +190,6 @@ code1,code2,code3
 After adding or modifying this environment variable, please redeploy the project for the changes to take effect.
 
 ## Environment Variables
-
-> [简体中文 > 如何配置 api key、访问密码、接口代理](./README_CN.md#环境变量)
 
 ### `CODE` (optional)
 
@@ -407,8 +380,6 @@ NodeJS >= 18, Docker >= 20
 
 ## Development
 
-> [简体中文 > 如何进行二次开发](./README_CN.md#开发)
-
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
@@ -485,12 +456,6 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 - [How to use Vercel (No English)](./docs/vercel-cn.md)
 - [User Manual (Only Chinese, WIP)](./docs/user-manual-cn.md)
 
-## Screenshots
-
-![Settings](./docs/images/settings.png)
-
-![More](./docs/images/more.png)
-
 ## Translation
 
 If you want to add a new translation, read this [document](./docs/translation.md).
@@ -500,38 +465,6 @@ If you want to add a new translation, read this [document](./docs/translation.md
 [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
 ## Special Thanks
-
-### Sponsor
-
-> 仅列出捐赠金额 >= 100RMB 的用户。
-
-[@mushan0x0](https://github.com/mushan0x0)
-[@ClarenceDan](https://github.com/ClarenceDan)
-[@zhangjia](https://github.com/zhangjia)
-[@hoochanlon](https://github.com/hoochanlon)
-[@relativequantum](https://github.com/relativequantum)
-[@desenmeng](https://github.com/desenmeng)
-[@webees](https://github.com/webees)
-[@chazzhou](https://github.com/chazzhou)
-[@hauy](https://github.com/hauy)
-[@Corwin006](https://github.com/Corwin006)
-[@yankunsong](https://github.com/yankunsong)
-[@ypwhs](https://github.com/ypwhs)
-[@fxxxchao](https://github.com/fxxxchao)
-[@hotic](https://github.com/hotic)
-[@WingCH](https://github.com/WingCH)
-[@jtung4](https://github.com/jtung4)
-[@micozhu](https://github.com/micozhu)
-[@jhansion](https://github.com/jhansion)
-[@Sha1rholder](https://github.com/Sha1rholder)
-[@AnsonHyq](https://github.com/AnsonHyq)
-[@synwith](https://github.com/synwith)
-[@piksonGit](https://github.com/piksonGit)
-[@ouyangzhiping](https://github.com/ouyangzhiping)
-[@wenjiavv](https://github.com/wenjiavv)
-[@LeXwDeX](https://github.com/LeXwDeX)
-[@Licoy](https://github.com/Licoy)
-[@shangmin2009](https://github.com/shangmin2009)
 
 ### Contributors
 
